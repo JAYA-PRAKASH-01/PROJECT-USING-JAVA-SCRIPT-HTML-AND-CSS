@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body class="body">
+    <div class="header">
+        <h1>
+            <img src="https://img.freepik.com/premium-vector/jk-logo-vector_724449-179.jpg?w=740" alt="JK Logo" height="100" width="100">
+            JK SHOPPING CART 
+           </h1>
+    </div>
+    <hr>
+    <div class="searchengine"><p>
+     <input type="search" class="search" placeholder="Search for Mobiles,Fruits and Home Appliances" >&#128269;
+        <lable class="log"><button class="logbtn">Login</button>
+        <lable><button class="sigbtn">Sign up</button></lable></lable>
+        <lable><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7hMdTgtTYjwi9L_ThyVVCHOevLBU4uZrj4w&s" alt="image" class="cartimg"></lable>
+        <lable class="cart"><button class="btn" onclick="cartFunction()">Cart</button></lable>
+     </p></div>
+     <div class="fruits-container">
+        <h1 class="fruhead">FRUITS SECTION</h1>
+         </div><hr>
+         <table class="fruitstable">
+            <tr>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAFbdY40LAD4c7j_-W2k1of4u-Es0jvP8W9g&s" ></td>
+                <td><img src="https://static.vecteezy.com/system/resources/thumbnails/050/796/756/small/vibrant-fruits-and-vegetables-splashing-in-a-refreshing-water-display-photo.jpg"></td>
+                
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFGEmUJzaIdV_wzhDTaErG0rUsi0bj5rCsdw&s"></td>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-QpzIEIh_CuNiqTDgV93-VmNFsLDOwrVFjw&s"></td>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU2kPNJYquur_vugPcJj4_FuUkSfWhCTnXEw&s"></td>
+            </tr>
+            <tr class="fruits-name"><td>GRAPES</td>
+            <td>APPLE / ORANGES</td>
+            <td>NUTS</td>
+            <td>FRUITS BASKET </td>
+            <td>VEGETABLES</td>
+        </tr>
+        <tr class="rupee">
+            <td>Rs 300/-</td>
+            <td>Rs 500/-</td>
+            <td>Rs 700/-</td>
+            <td>Rs 3000/-</td>
+            <td>Rs 2500/-</td>
+
+        </tr>
+        <tr class="fruitscart" onclick="movetoCart()">
+            <td><button class="fruit1" data-name="GRAPES" data-price="300" onclick="addToCart(event)">Add to Cart</button></td>
+            <td><button class="fruit2" data-name="APPLE / ORANGES" data-price="500" onclick="addToCart(event)">Add to Cart</button></td>
+            <td><button class="fruit3" data-name="NUTS" data-price="700" onclick="addToCart(event)">Add to Cart</button></td>
+            <td><button class="fruit4" data-name="FRUITS BASKET" data-price="3000" onclick="addToCart(event)">Add to Cart</button></td>
+            <td><button class="fruit5" data-name="VEGETABLES" data-price="2500" onclick="addToCart(event)">Add to Cart</button></td>
+        </tr>
+        
+         </table>
+         <hr>
+         <div class="electronics-container">
+            <h1 class="elehead">ELECTRONICS SECTION</h1>
+             <hr>
+             <table class="eletable">
+                <tr>
+                    <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwvhgJA4wsFwlwNSSm23O8bfCBq7wLdq1WEQ&s" ></td>
+                    <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEM1FmAqXT85kPFlvWkdzr52Gsufus4OB99A&s"></td>
+                    
+                    <td><img src="https://img.pikbest.com/templates/20240731/earbuds-social-media-post-banner-template_10690540.jpg!w700wp"></td>
+                    <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPqMjuoTJE147Ttt0ODi99OYLD5lWyfPCUOw&s"></td>
+                    <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaz--FEAP4yRVyekb3seOIgGoK-NmGEtpkDw&s"></td>
+                </tr>
+                <tr class="ele-name"><td>LAPTOPS</td>
+                <td>I PHONE</td>
+                <td>EAR BUDS</td>
+                <td>SMART TV  </td>
+                <td>PRINTERS</td>
+            </tr>
+            <tr class="ele-rupee">
+                <td>Rs 30000/-</td>
+                <td>Rs 85000/-</td>
+                <td>Rs 5000/-</td>
+                <td>Rs 45000/-</td>
+                <td>Rs 25000/-</td>
+    
+            </tr>
+            <tr class="ele-cart">
+                <td><button class="ele1" data-name="LAPTOPS" data-price="30000" onclick="addToCart(event)">Add to Cart</button></td>
+                <td><button class="ele2" data-name="I Phone" data-price="85000" onclick="addToCart(event)">Add to Cart</button></td>
+                <td><button class="ele3" data-name="EAR BUDS" data-price="5000" onclick="addToCart(event)">Add to Cart</button></td>
+                <td><button class="ele4" data-name="SMART TV" data-price="45000" onclick="addToCart(event)">Add to Cart</button></td>
+                <td><button class="ele5" data-name="PRINTERS" data-price="25000" onclick="addToCart(event)">Add to Cart</button></td>
+            </tr>
+            ---------------------------------------------
+       
+             </table></div>
+             <hr>
+             <div class="footer">
+                <p>TERMS AND CONDITIONS -/-</p>
+                <p>By using this shopping cart, you agree to comply with our terms. Prices and availability are subject to change without notice. Items in your cart are not reserved until checkout. We reserve the right to cancel orders due to errors or fraud. Please review our return and refund policies before purchase.
+                    <p>CONTACT -- 0444-5665</p>
+                </p>
+             </div>
+
+            <script>
+             function cartFunction()
+              {
+                        window.location.href="cart.html";
+              }
+           
+            
+function addToCart(event) {
+    const itemName = event.target.getAttribute('data-name');
+    const itemPrice = parseInt(event.target.getAttribute('data-price'));
+
+   
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+   
+    cart.push({ name: itemName, price: itemPrice });
+
+
+    localStorage.setItem('cart', JSON.stringify(cart));
+
+   
+    alert(`${itemName} added to cart!`);
+}
+
+            </script>
+         
+</body>
+</html>

@@ -1,0 +1,437 @@
+
+.header {
+    font-family: 'Times New Roman', Times, serif;
+    width: max-content;
+     background-color: rgb(195, 217, 195); 
+    color: rgb(0, 0, 0);
+    text-align: center; 
+    padding: 20px; 
+
+    border-bottom: 2px solid darkblue; 
+    background-image: url("https://www.shutterstock.com/image-vector/pink-theme-summer-sale-promotion-260nw-2318269733.jpg");
+    background-clip: padding-box;
+    background-blend-mode: normal;
+    background-position: top;
+    background-repeat: repeat;
+    height: 100px;
+    width: 1500px;
+}
+.header h1 {
+    margin: 0;
+    font-size: 2.5em; 
+}
+
+
+.header img {
+    vertical-align: middle; 
+    margin-left: 10px; 
+}
+.searchengine{
+    text-align: center;
+    padding-left: 420px;
+    
+   }
+   .search 
+   {
+    width: 600px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 43px;
+  border-spacing: 10px;
+  padding-left: 150px;
+  font-size: 16px;
+   }
+
+   .logbtn{
+    padding-right: 5px;
+    cursor: pointer;
+    background-color:grey;
+    width: 70px;
+    height: 30px;
+   } 
+   .logbtn:hover{
+    background-color: rgb(66, 139, 235);
+   }
+   .sigbtn{
+    padding-left: 5px;
+    cursor: pointer;
+    background-color:grey;
+    width: 70px;
+    height: 30px;
+    padding-right: 5px;
+   }
+   .sigbtn:hover{
+    background-color: rgb(66, 139, 235);
+   }
+
+.cart
+{
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+      font-weight: 500;
+     text-shadow: 50px;
+     
+}
+
+.cartimg{
+    width: 50px;
+    height: 50px;
+ vertical-align: middle;
+ 
+}
+
+.log{
+    padding-left: 100px;
+}
+
+.btn {
+    font-size: 18px; 
+        padding: 15px 30px; 
+    width: 150px; 
+    height: 50px; 
+    background-color: #007bff;
+    color: #fff;
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    text-align: center; 
+}
+
+.btn:hover {
+    background-color: #0056b3; }
+    .fruhead{
+        text-align: center;
+        text-transform: capitalize;
+        text-shadow: rgb(221, 119, 119);
+        cursor:pointer;
+        font-family: Arial, Helvetica, sans-serif;
+         font-weight: 600;
+         background-color: grey;
+        
+        }
+    .fruhead:hover{
+        color: rgb(16, 41, 82);
+    }
+  
+    .fruits-name{
+        text-align: center;
+        text-size-adjust: middle;
+     font-family: 'Times New Roman', Times, serif;
+        font-size: large;
+        font-weight: 700;
+
+    }
+    .rupee{
+        text-align: center;
+        text-size-adjust: middle;
+     font-family: 'Times New Roman', Times, serif;
+        font-size: large;
+        font-weight: 700;
+    }
+    .fruitscart{
+        text-align: center;
+ }
+ .fruitstable img{
+    border-radius: 40px;
+    padding: 1px;
+    width:300px;
+    height: 250px;
+ }
+ 
+ .fruit1{
+    background-color: #5d99d8;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+ }
+ .fruit1:hover{
+    background-color: #0056b3;
+  
+ }
+ .fruit4{
+    background-color: #5d99d8;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+ }
+ .fruit4:hover{
+    background-color: #0056b3;
+ }
+ .fruit3{
+    background-color: #5d99d8;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+ }
+ .fruit3:hover{
+    background-color: #0056b3;
+ }
+ .fruit2{
+    background-color: #5d99d8;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+ }
+ .fruit2:hover{
+    background-color: #0056b3;
+ }
+ .fruit5{
+    background-color: #5d99d8;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+ }
+ .fruit5:hover{
+    background-color: #0056b3;
+ }
+.ele-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 3px;
+    justify-items: flex-start;
+}
+.elehead{
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: rgb(221, 119, 119);
+    cursor:pointer;
+    font-family: Arial, Helvetica, sans-serif;
+     font-weight: 600;
+     background-color: grey;
+    
+    }
+.elehead:hover{
+    color: rgb(16, 41, 82);
+}
+
+.ele-name{
+    text-align: center;
+    text-size-adjust: middle;
+ font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 700;
+
+}
+.ele-rupee{
+    text-align: center;
+    text-size-adjust: middle;
+ font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 700;
+}
+.ele-cart{
+    text-align: center;
+}
+.eletable img{
+border-radius: 40px;
+padding: 1px;
+width:300px;
+height: 250px;
+}
+.ele1{
+background-color: #5d99d8;
+cursor: pointer;
+width: 100px;
+height: 30px;
+}
+.ele1:hover{
+background-color: #0056b3;
+}
+.ele4{
+background-color: #5d99d8;
+cursor: pointer;
+width: 100px;
+height: 30px;
+}
+.ele4:hover{
+background-color: #0056b3;
+}
+
+.ele3{
+background-color: #5d99d8;
+cursor: pointer;
+width: 100px;
+height: 30px;
+}
+.ele3:hover{
+background-color: #0056b3;
+}
+.ele2{
+background-color: #5d99d8;
+cursor: pointer;
+width: 100px;
+height: 30px;
+}
+.ele2:hover{
+background-color: #0056b3;
+}
+.ele5{
+background-color: #5d99d8;
+cursor: pointer;
+width: 100px;
+height: 30px;
+}
+.ele5:hover{
+background-color: #0056b3;
+}
+.ele-container{
+display: flex;
+justify-content: space-around;
+padding: 3px;
+justify-items: flex-start;
+}
+.fruitstable img,
+.eletable img {
+    border-radius: 40px;
+    padding: 1px;
+    width: 300px;
+    height: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.fruitstable img:hover,
+.eletable img:hover {
+    transform: scale(0.0.5); 
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3); 
+}
+.footer{
+    padding-top: 5px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: 500;
+   background-color: rgb(113, 121, 128);
+   padding-bottom: 5px;
+}
+.body{
+    background-color: rgb(248, 215, 220);
+}
+.cartheader{
+   border: solid 1px;
+
+   border-left: none;
+   border-right: none;
+
+}
+.cartheader img{
+    vertical-align:middle;
+    width: 100px;
+    height: 100px;
+}
+.mycart{
+  padding-left: 100px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+  font-weight: 600;
+  
+  }
+  .cartback{
+    cursor: pointer;
+    width: 60px;
+    height: 5%;
+}
+.cartback:hover{
+    background-color: #838383;
+    animation: forwards;
+}
+.cartitems{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 100;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+
+.cartheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+}
+
+.cartheader img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.mycart {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cartback {
+    background-color: white;
+    color: #007bff;
+    border: 2px solid #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.cartback:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+
+.cart-items {
+    padding: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #c82333;
+}
+
+
+.total-price {
+    background-color: white;
+    padding: 15px 20px;
+    border-top: 2px solid #007bff;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.total-price p {
+    margin: 0;
+}
+
+
+

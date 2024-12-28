@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <div class="cartheader">
+        <button class="cartback" onclick="backfunction()">Back</button>
+        <label class="mycart">MY CART</label>
+        <img src="https://img.freepik.com/free-vector/cute-shopping-cart-logo_23-2148453859.jpg" alt="Cart Image">
+    </div>
+    
+    <div class="cart-items" id="cart-items">
+      
+    </div>
+    
+    <div class="total-price" id="total-price">
+
+        <p>Total: Rs <span id="total-amount">0</span></p>
+    </div>
+
+    <script>
+       
+
+       
+        function loadCartItems() {
+            const cart = JSON.parse(localStorage.getItem('cart')) || [];
+            const cartItemsContainer = document.getElementById('cart-items');
+            const totalAmount = document.getElementById('total-amount');
+            let total = 0;
+
+       
+            cartItemsContainer.innerHTML = '';
+
+        
+            cart.forEach((item, index) => {
+                const cartItemDiv = document.createElement('div');
+                cartItemDiv.classList.add('cart-item');
+
+                cartItemDiv.innerHTML = `
+                    <span>${item.name}</span> 
+                    <span>Rs ${item.price}</span> 
+                    <button onclick="removeItem(${index})" class="btn">Remove</button>
+                `;
+                cartItemsContainer.appendChild(cartItemDiv);
+
+                total += item.price;
+            });
+
+         
+            totalAmount.textContent = total;
+        }
+
+ 
+        function removeItem(index) {
+            let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+          
+            cart.splice(index, 1);
+
+            localStorage.setItem('cart', JSON.stringify(cart));
+
+         
+            loadCartItems();
+        }
+
+        function backfunction() {
+            window.location.href = "project.html";
+        }
+
+      
+        window.onload = loadCartItems;
+    </script>
+</body>
+</html>
